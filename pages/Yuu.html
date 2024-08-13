@@ -44,9 +44,23 @@
     background-color: rgba(240, 245, 248, 0.884);
     margin: 10px 0;
   }
+
+  footer {
+    margin-top: 2vh;
+    padding: 2vh;
+    background-color: rgba(240, 245, 248, 0.884);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer *{
+    margin: 0;
+  }
 </style>
 
 <body>
+  <header>
   <nav class="navbar navbar-expand-lg navbar-light ">
     <a class="navbar-brand" href="../index.html">Virtudes do Bushido</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -65,6 +79,8 @@
       </div>
     </div>
   </nav>
+  </header>
+  <section>
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
       <h1 class="display-4">勇 Yuu (Coragem)</h1>
@@ -96,6 +112,11 @@
       </p>
     </div>
   </div>
+  </section>
+  <footer>
+    <p>Esse site foi desenvolvido como parte de uma atividade acadêmica, com o intuito de fortalecer os conhecimentos
+      sobre o Bootstrap.</p>
+  </footer>
   <!-- JavaScript (Opcional) -->
   <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

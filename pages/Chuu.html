@@ -17,6 +17,7 @@
     background-size: cover;
     background-attachment: fixed;
     overflow-x: hidden;
+    align-content: space-between;
   }
 
   nav {
@@ -42,59 +43,85 @@
     background-color: rgba(240, 245, 248, 0.884);
     margin: 10px 0;
   }
+
+  footer {
+    margin-top: 2vh;
+    padding: 2vh;
+    background-color: rgba(240, 245, 248, 0.884);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer *{
+    margin: 0;
+  }
+
 </style>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light ">
-    <a class="navbar-brand" href="../index.html">Virtudes do Bushido</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link" href="./Meiyo.html">| 名誉 Meiyo (Honra) |</a>
-        <a class="nav-item nav-link" href="./Rei.html">| 礼 Rei (Respeito) |</a>
-        <a class="nav-item nav-link" href="./Gi.html">| 義 Gi (Integridade/Justiça) |</a>
-        <a class="nav-item nav-link" href="./Yuu.html">| 勇 Yuu (Coragem) |</a>
-        <a class="nav-item nav-link" href="./Makoto.html">| 诚 Makoto (Honestidade/Sinceridade) |</a>
-        <a class="nav-item nav-link" href="./Jin.html">| 仁 Jin (Compaixão) |</a>
-        <a class="nav-item nav-link" href="./Chuu.html">| 忠 Chuu (Dever/Lealdade) |</a>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <a class="navbar-brand" href="../index.html">Virtudes do Bushido</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link" href="./Meiyo.html">| 名誉 Meiyo (Honra) |</a>
+          <a class="nav-item nav-link" href="./Rei.html">| 礼 Rei (Respeito) |</a>
+          <a class="nav-item nav-link" href="./Gi.html">| 義 Gi (Integridade/Justiça) |</a>
+          <a class="nav-item nav-link" href="./Yuu.html">| 勇 Yuu (Coragem) |</a>
+          <a class="nav-item nav-link" href="./Makoto.html">| 诚 Makoto (Honestidade/Sinceridade) |</a>
+          <a class="nav-item nav-link" href="./Jin.html">| 仁 Jin (Compaixão) |</a>
+          <a class="nav-item nav-link" href="./Chuu.html">| 忠 Chuu (Dever/Lealdade) |</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">忠 Chuu (Dever/Lealdade)</h1>
+        <p class="lead"><strong>"Um samurai é extremamente leal àqueles que estão sob seus cuidados. Por quem ele é
+            responsável, ele permanece fiel. Suas palavras e suas ações pertencem à você, assim como todas as
+            consequências que se seguem a partir delas. “A palavra de um homem deve ser como sua impressão digital: Você
+            deve levá-la aonde quer que vá."</strong><br><br>
+
+          A virtude "Chuu"(忠) do bushido representa a lealdade e o dever dos samurais, um samurai que pratica a virtude
+          "Chuu" se torna alguem extremamente leal aos seus superiores, seus colegas e a todos que dependen dele. Ele
+          também mantém a sua palavra, sua honra e os compromissos independentemente das circunstâncias.<br><br>
+
+          <strong>Fundamento do Código de Honra:</strong> "Chuu" é uma das virtudes centrais dos samurais, pois ela é a
+          base da conduta, e é uma demonstração da integridade dos mesmos e que eles tem pelos outros. <br><br>
+
+          <strong>Coesão e Solidariedade:</strong> A lealdade entre os samurais promovia a coesãoo e a unidade dentro
+          dos
+          seus grupos e incentivavam a solidariedade e o apoio mútuo entre os guerreiros, que era algo essencial em
+          batalhas. <br><br>
+
+          <strong>Sacrifício pessoal:</strong> A lealdade exigia que os samurais estivessem dispostos a sacrificar as
+          suas
+          vidas pelo bem maior e pela honra daqueles que dependiam dele, isso era visto como a expressão máxima de
+          lealdade e dever para um samurai. <br><br>
+
+          <strong>Desenvolvimento pessoal:</strong> A lealdade ajudava os samurais a desenvolver um melhor e mais forte
+          senso de moralidade e ética, pois essa virtude exigia disciplina e dedicação constantes, o que ajudava ainda
+          mais no crescimento pessoal do samurai. <br><br>
+
+          Em suma, a virtude Chuu tem como a sua representação o dever de um samurai de ser leal aqueles que dependem
+          dele, mesmo que custe a propria vida dele.
+        </p>
       </div>
     </div>
-  </nav>
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <h1 class="display-4">忠 Chuu (Dever/Lealdade)</h1>
-      <p class="lead"><strong>"Um samurai é extremamente leal àqueles que estão sob seus cuidados. Por quem ele é
-          responsável, ele permanece fiel. Suas palavras e suas ações pertencem à você, assim como todas as
-          consequências que se seguem a partir delas. “A palavra de um homem deve ser como sua impressão digital: Você
-          deve levá-la aonde quer que vá."</strong><br><br>
+  </section>
 
-        A virtude "Chuu"(忠) do bushido representa a lealdade e o dever dos samurais, um samurai que pratica a virtude
-        "Chuu" se torna alguem extremamente leal aos seus superiores, seus colegas e a todos que dependen dele. Ele
-        também mantém a sua palavra, sua honra e os compromissos independentemente das circunstâncias.<br><br>
-
-        <strong>Fundamento do Código de Honra:</strong> "Chuu" é uma das virtudes centrais dos samurais, pois ela é a
-        base da conduta, e é uma demonstração da integridade dos mesmos e que eles tem pelos outros. <br><br>
-
-        <strong>Coesão e Solidariedade:</strong> A lealdade entre os samurais promovia a coesãoo e a unidade dentro dos
-        seus grupos e incentivavam a solidariedade e o apoio mútuo entre os guerreiros, que era algo essencial em
-        batalhas. <br><br>
-
-        <strong>Sacrifício pessoal:</strong> A lealdade exigia que os samurais estivessem dispostos a sacrificar as suas
-        vidas pelo bem maior e pela honra daqueles que dependiam dele, isso era visto como a expressão máxima de
-        lealdade e dever para um samurai. <br><br>
-
-        <strong>Desenvolvimento pessoal:</strong> A lealdade ajudava os samurais a desenvolver um melhor e mais forte
-        senso de moralidade e ética, pois essa virtude exigia disciplina e dedicação constantes, o que ajudava ainda
-        mais no crescimento pessoal do samurai. <br><br>
-
-        Em suma, a virtude Chuu tem como a sua representação o dever de um samurai de ser leal aqueles que dependem
-        dele, mesmo que custe a propria vida dele.
-      </p>
-    </div>
-  </div>
+  <footer>
+    <p>Esse site foi desenvolvido como parte de uma atividade acadêmica, com o intuito de fortalecer os conhecimentos
+      sobre o Bootstrap.</p>
+  </footer>
   <!-- JavaScript (Opcional) -->
   <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
